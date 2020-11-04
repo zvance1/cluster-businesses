@@ -1,12 +1,12 @@
 
-# Summary
+# Overview
 In this project I will fetch data about businesses from the yelp API within 15 miles of UMBC in attempt to help UMBC see relevant information and stats to recruit the most talented students.  The task at hand is to use the yelp API to gather data on the businesses around UMBC and then explore it to find reasons for college students to attend UMBC based on that data.
 
 # Goals
 
 The goal of the data gathering part of this project is to successfully read and understand API docs to gather the cleanest and most informative data for our purpose.  After completion of it I have a better understanding of API usage and implementation and be able to translate that skill to using any API regardless of the limitations.  For the data exploration portion of this project the goal is to be able to explore the data to find information and stats that answer the question / address the problem.  After completion I have a better understanding of how endless the exploration process can be and ideas for where to start and what to look for in the data to provide the best analysis and answer to the question.
 
-# Motivation and Background
+# Background and Field Research
 
 The question/ problem at hand here is finding stats and information that will help UMBC in recruiting more students to apply and attend the school.  UMBC is our customer, and the more quality students they can get, the more they can grow as a school and therefore it is of the utmost importance for the school to be able to attract the most talented students.
 
@@ -21,7 +21,7 @@ I created a list of categories that I believed would be interesting to college s
 
 Looping through and querying for each category, I ended up with 8752 rows of data with 17 columns.  The API docs are available here: [Yelp API Docs](https://www.yelp.com/developers/documentation/v3/business_search).
 
-# Summary of Files
+# Table of Contents
 
 **Data Source:**
 <br>
@@ -59,6 +59,6 @@ Libraries    : pandas, tabulate, requests, configparser, json, csv
 </pre>
 
 <pre>
-Duration     : September 2020
-Last Update  : 10.08.2020
+Duration     : November 2020
+Last Update  : 11.15.2020
 </pre>
